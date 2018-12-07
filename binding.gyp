@@ -1,9 +1,9 @@
 {
   "targets": [
     {
-      "target_name": "hello-native-js",
+      "target_name": "oy",
       "sources": [
-        "hello.cc"
+        "oy.cc"
       ],
       "include_dirs": [
         "<!(node -e \"require('nan')\")"
