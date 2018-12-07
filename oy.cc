@@ -1,6 +1,6 @@
 #include <nan.h>
 
-void Method(Nan::FunctionCallbackInfo<v8::Value>& info) {
+void Method(const Nan::FunctionCallbackInfo<v8::Value>& info) {
   info.GetReturnValue().Set(Nan::New("You wot bruv?!").ToLocalChecked());
 }
 
