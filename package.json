@@ -9,5 +9,8 @@
   },
   "author": "Gregory Jordan",
   "license": "MIT",
-  "gypfile": true
+  "gypfile": true,
+  "dependencies": {
+    "nan": "^2.11.1"
+  }
 }
